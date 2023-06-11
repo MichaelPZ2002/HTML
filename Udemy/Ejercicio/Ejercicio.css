@@ -1,0 +1,16 @@
+
+h1{ 
+color: rgba(67, 15, 151, 0.803);}
+
+a{ 
+display: block;
+color: rgb(233, 237, 249);
+text-align: center;
+padding: 15px;
+text-decoration: none;
+}
+a{background-color: rgb(17, 189, 216);}
+a:hover{
+background-color:blue;
+  
+}
