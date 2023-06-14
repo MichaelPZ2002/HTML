@@ -17,7 +17,7 @@ color: rgb(27, 27, 240);
 
 }
 
-.algo{
+#algo{
 margin: 15px 600px;
 border: 10px solid rgb(150, 16, 234);
 text-align: center;
@@ -40,14 +40,13 @@ background-color: rgb(240, 246, 252);
 padding: 15px;
 }
 
-.link{
+#link{
 color: rgb(138, 43, 226);
 margin: 3px;
 text-align: center;
 }
 
 .vaina{
-margin: 3px; 
 border: 10px solid rgb(33, 243, 58);
 text-align: center;
 background-color: rgb(240, 246, 252);
