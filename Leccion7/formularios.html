@@ -11,7 +11,6 @@
 <body>
   <h1>Formularios en HTML</h1>
   <form method="get">
-
     <label for="nombre">Nombre:</label> <br />
     <input type="text" id='nombre' name="nombre" placeholder="Nombre" required="true" />
     <br>
@@ -27,10 +26,27 @@
     <br />
     <input type="password" id="password" name="password" required="true" /> <br />
 
-    <label for="email">Email: </label>
-    <br />
-    <input type="email" id="email" name="email" required="true" />
+    <label for="email">Email:</label> <br />
+    <input type="email" id="email" name="email" required="true" /><br />
 
+    <label> Género:</label><br />
+    <input type="radio" id="femenino" name="genero" value="femenino">
+    <label for="femenino">Femenino</label>
+    <br />
+    <input type="radio" id="masculino" name="genero" value="masculino">
+    <label for="masculino">Masculino</label>
+    <br />
+
+    <label for="juego">Juego favorito</label> <br />
+    <select id="juego" name="juego">
+      <option value="non" selected="true">Ninguno</option>
+      <option value="lol">League of legends</option>
+      <option value="soul"> Bloodborne</option>
+      <option value="rpg">Blue protocol</option>
+    </select> <br />
+
+    <label for="comentario">Comentario:</label> <br />
+    <textarea name="comentario" id="comentario" cols="30" rows="2" placeholder="De su opinion" />
     <br /><input type="submit" value="enviar" />
 
   </form>
