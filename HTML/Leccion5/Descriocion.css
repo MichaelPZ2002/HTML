@@ -1,0 +1,7 @@
+
+dt::before{
+content:counter(contador) ') ';
+color: black;
+}
+dt{ counter-increment: contador;}
+
