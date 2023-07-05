@@ -5,9 +5,39 @@ box-shadow: 1px 0 4px rgb(0,0,0,.2);
 
 }
 
-#titulo {
-
-  
+.dashed {
+border:dashed red;
+ border-width: 10px 5px 3px 2px; 
 }
 
-.clase{ }
+.solid{ 
+
+border: 10px solid red;
+ }
+
+ .double{
+border: 10px double red;
+
+ }
+.dotted
+{
+border: 10px dotted red;
+
+}
+
+.surco{
+border: 10px groove;
+}
+
+.cresta{ 
+border:10px ridge ;
+}
+.recuadro{
+border: 10px inset;
+}
+.bordeinverso{
+  border: 10px outset;
+}
+.sinborde{ border:none}
+.oculto{ border: hidden}
+.mixto{ border-style: dotted solid dashed double;}
