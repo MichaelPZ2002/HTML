@@ -12,8 +12,10 @@ border:dashed red;
 
 .solid{ 
 
-border: 10px solid red;
- }
+border: 10px solid;
+border-color: red black green yellow;
+border-radius: 15px; 
+}
 
  .double{
 border: 10px double red;
